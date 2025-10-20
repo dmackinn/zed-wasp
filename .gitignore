@@ -1,0 +1,30 @@
+# Rust
+/target/
+Cargo.lock
+extension.wasm
+
+# Tree-sitter generated files
+languages/wasp/src/
+languages/wasp/binding.gyp
+languages/wasp/bindings/
+languages/wasp/build/
+languages/wasp/node_modules/
+languages/wasp/package-lock.json
+
+# Zed extension build artifacts
+/grammars/
+*.wasm
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+# local dev
+build.sh
+test.wasp
