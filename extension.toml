@@ -6,6 +6,10 @@ authors = ["Don MacKinnon <dmackinn@revolutionlabs.com>"]
 description = "Wasp language support for Zed"
 repository = "https://github.com/dmackinn/zed-wasp"
 
+[language_servers.waspls]
+name = "waspls"
+language = "Wasp"
+
 [grammars.wasp]
 repository = "https://github.com/dmackinn/tree-sitter-wasp"
 commit = "0261099a57920eb0c20165f99bc878d1ed198a62"
